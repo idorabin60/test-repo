@@ -20,6 +20,7 @@ public:
 	~Foo()
 	{
 		delete[] p;
+		// this is just a comment
 	}
 	// Copy constructor
 	Foo(const Foo &other)
